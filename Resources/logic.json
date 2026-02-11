@@ -1,0 +1,258 @@
+[
+  {
+    "name": "Corpse_Dream-Basin_Key",
+    "logic": "*Simple_Key-Basin + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Beast's_Den",
+    "logic": "*Hallownest_Seal-Beast's_Den + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Broken_Bridge",
+    "logic": "*Wanderer's_Journal-Ancient_Basin + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Brumm_Flame_1",
+    "logic": "Room_spider_small[left1] + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Brumm_Flame_2",
+    "logic": "*Corpse_Dream-Brumm_Flame_1"
+  },
+  {
+    "name": "Corpse_Dream-Camp_Bench",
+    "logic": "*Wanderer's_Journal-Kingdom's_Edge_Camp + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Canyon_Cocoon",
+    "logic": "*Hallownest_Seal-Fog_Canyon_West + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Canyon_Guard_Left",
+    "logic": "(Fungus3_25b[left1] | Fungus3_25b[right1]) + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Canyon_Guard_Right",
+    "logic": "*Corpse_Dream-Canyon_Guard_Left"
+  },
+  {
+    "name": "Corpse_Dream-Catacombs_Journal",
+    "logic": "*Wanderer's_Journal-Resting_Grounds_Catacombs + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Failed_Tramway_1",
+    "logic": "*Bench-Failed_Tramway + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Failed_Tramway_2",
+    "logic": "*Bench-Failed_Tramway + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Failed_Tramway_3",
+    "logic": "*Bench-Failed_Tramway + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Fool_Eater",
+    "logic": "*Wanderer's_Journal-Greenpath_Stag + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Fountain_1",
+    "logic": "(Abyss_04 + (ANYCLAW | WINGS + ENEMYPOGOS) | Abyss_04[top1]) + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Fountain_2",
+    "logic": "*Corpse_Dream-Fountain_1"
+  },
+  {
+    "name": "Corpse_Dream-Fungal_Prison",
+    "logic": "*Wanderer's_Journal-Fungal_Wastes_Thorns_Gauntlet + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Garden_Seal",
+    "logic": "*Hallownest_Seal-Queen's_Gardens + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Great_Hopper",
+    "logic": "*King's_Idol-Great_Hopper + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Greenpath_Seal",
+    "logic": "*Hallownest_Seal-Greenpath + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Gulkas_1",
+    "logic": "Fungus1_11 + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Gulkas_2",
+    "logic": "*Corpse_Dream-Gulkas_1"
+  },
+  {
+    "name": "Corpse_Dream-Gulkas_Hidden",
+    "logic": "*Wanderer's_Journal-Greenpath_Lower + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Leg_Eater",
+    "logic": "Fungus2_26[left1] + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Leg_Eater_Bench",
+    "logic": "*Corpse_Dream-Leg_Eater"
+  },
+  {
+    "name": "Corpse_Dream-Leg_Eater_Entrance",
+    "logic": "(Fungus2_06[right1] | Fungus2_06 + (ACID | RIGHTDASH | WINGS | RIGHTCLAW + PRECISEMOVEMENT | RIGHTSUPERDASH | $SHADESKIP | SPELLAIRSTALL + $CASTSPELL[before:AREASOUL,after:ROOMSOUL]) | Fungus2_06[top1]) + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Lighthouse",
+    "logic": "Abyss_Lighthouse_room[left1] + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Love_Key",
+    "logic": "*Love_Key + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Lower_Edge_1",
+    "logic": "Deepnest_East_03 + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Lower_Edge_2",
+    "logic": "*Corpse_Dream-Lower_Edge_1"
+  },
+  {
+    "name": "Corpse_Dream-Lower_Edge_3",
+    "logic": "*Corpse_Dream-Lower_Edge_1"
+  },
+  {
+    "name": "Corpse_Dream-Midwife",
+    "logic": "*Dirtmouth_Stag"
+  },
+  {
+    "name": "Corpse_Dream-Nosk_1",
+    "logic": "*Dirtmouth_Stag"
+  },
+  {
+    "name": "Corpse_Dream-Nosk_2",
+    "logic": "*Dirtmouth_Stag"
+  },
+  {
+    "name": "Corpse_Dream-Nosk_3",
+    "logic": "*Corpse_Dream-Nosk_2"
+  },
+  {
+    "name": "Corpse_Dream-Nosk_4",
+    "logic": "*Dirtmouth_Stag"
+  },
+  {
+    "name": "Corpse_Dream-Nosk_5",
+    "logic": "*Corpse_Dream-Nosk_4"
+  },
+  {
+    "name": "Corpse_Dream-Nosk_6",
+    "logic": "*Dirtmouth_Stag"
+  },
+  {
+    "name": "Corpse_Dream-Nosk_7",
+    "logic": "*Corpse_Dream-Nosk_6"
+  },
+  {
+    "name": "Corpse_Dream-Nosk_8",
+    "logic": "*Corpse_Dream-Nosk_6"
+  },
+  {
+    "name": "Corpse_Dream-Nosk_9",
+    "logic": "*Corpse_Dream-Nosk_6"
+  },
+  {
+    "name": "Corpse_Dream-Nosk_10",
+    "logic": "*Corpse_Dream-Nosk_6"
+  },
+  {
+    "name": "Corpse_Dream-Nosk_11",
+    "logic": "*Corpse_Dream-Nosk_6"
+  },
+  {
+    "name": "Corpse_Dream-Nosk_12",
+    "logic": "*Corpse_Dream-Nosk_6"
+  },
+  {
+    "name": "Corpse_Dream-Palace_Grounds",
+    "logic": "Abyss_05[left1] + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Peak_Idol_1",
+    "logic": "*King's_Idol-Crystal_Peak + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Peak_Idol_2",
+    "logic": "*Corpse_Dream-Peak_Idol_1"
+  },
+  {
+    "name": "Corpse_Dream-Pilgrim's_Way",
+    "logic": "(Fungus2_10[right1] | Fungus2_10[right2] | Fungus2_10[bot1]) + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Pleasure_House_Egg_1",
+    "logic": "*Rancid_Egg-City_of_Tears_Pleasure_House + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Pleasure_House_Egg_2",
+    "logic": "*Corpse_Dream-Pleasure_House_Egg_1"
+  },
+  {
+    "name": "Corpse_Dream-Pleasure_House_Elevator",
+    "logic": "*Corpse_Dream-Pleasure_House_Egg_1"
+  },
+  {
+    "name": "Corpse_Dream-Pleasure_House_Journal",
+    "logic": "*Wanderer's_Journal-Pleasure_House + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Upper_Edge_1",
+    "logic": "Deepnest_East_07 + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Upper_Edge_2",
+    "logic": "(Deepnest_East_07[left1] | Deepnest_East_07 + (ANYCLAW | WINGS)) + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Upper_Tram_1",
+    "logic": "Upper_Tram + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Upper_Tram_2",
+    "logic": "*Corpse_Dream-Upper_Tram_1"
+  },
+  {
+    "name": "Corpse_Dream-Watcher's_Spire_1",
+    "logic": "Ruins2_Watcher_Room[bot1] + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Watcher's_Spire_2",
+    "logic": "*Corpse_Dream-Watcher's_Spire_1"
+  },
+  {
+    "name": "Corpse_Dream-Weavers'_Chest",
+    "logic": "*Geo_Chest-Weavers_Den + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Weavers'_Den",
+    "logic": "Deepnest_45_v02[left1] + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Weaversong_1",
+    "logic": "*Weaversong + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Weaversong_2",
+    "logic": "*Corpse_Dream-Weaversong_1"
+  },
+  {
+    "name": "Corpse_Dream-Well",
+    "logic": "*Hallownest_Seal-Crossroads_Well + DREAMNAIL"
+  },
+  {
+    "name": "Corpse_Dream-Willoh",
+    "logic": "*Hallownest_Seal-Queen's_Station + DREAMNAIL"
+  }
+]

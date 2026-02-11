@@ -1,0 +1,524 @@
+[
+  {
+    "name": "Basin_Key",
+    "objectName": "Dream Dialogue",
+    "scene": "Abyss_20",
+    "key": "ABYSS_MAWLEK_ROYAL",
+    "x": 57.32,
+    "y": 8.52
+  },
+  {
+    "name": "Beast's_Den",
+    "objectName": "Dream Dialogue",
+    "scene": "Deepnest_Spider_Town",
+    "pinScene": "Deepnest_10",
+    "key": "BEAST_DEN_CORPSE_01",
+    "x": 32.9,
+    "y": 118.2
+  },
+  {
+    "name": "Broken_Bridge",
+    "objectName": "Dream Dialogue",
+    "scene": "Abyss_02",
+    "key": "WHITE_CORPSE_03",
+    "x": 161.03,
+    "y": 5.69
+  },
+  {
+    "name": "Brumm_Flame_1",
+    "objectName": "Dream Dialogue (1)",
+    "scene": "Room_spider_small",
+    "pinScene": "Deepnest_10",
+    "key": "SPIDER_COCOON_02",
+    "x": 16.8,
+    "y": 95.2
+  },
+  {
+    "name": "Brumm_Flame_2",
+    "objectName": "Dream Dialogue",
+    "scene": "Room_spider_small",
+    "pinScene": "Deepnest_10",
+    "key": "SPIDER_COCOON_01",
+    "x": 23.2,
+    "y": 95.2
+  },
+  {
+    "name": "Camp_Bench",
+    "objectName": "Dream Dialogue",
+    "scene": "Deepnest_East_13",
+    "key": "ASH_TENT_CORPSE_01",
+    "x": 26.6,
+    "y": 2.53
+  },
+  {
+    "name": "Canyon_Cocoon",
+    "objectName": "Dream Dialogue",
+    "scene": "Fungus3_30",
+    "key": "FUNG_FOG_CORPSES_01",
+    "x": 21.77,
+    "y": 15.75
+  },
+  {
+    "name": "Canyon_Guard_Left",
+    "objectName": "Dream Dialogue",
+    "scene": "Fungus3_25b",
+    "key": "FUNG_GUARD_01",
+    "x": 34.92,
+    "y": 15.9
+  },
+  {
+    "name": "Canyon_Guard_Right",
+    "objectName": "Dream Dialogue (1)",
+    "scene": "Fungus3_25b",
+    "key": "FUNG_GUARD_02",
+    "x": 50.46,
+    "y": 15.47
+  },
+  {
+    "name": "Catacombs_Journal",
+    "objectName": "Dream Dialogue",
+    "scene": "RestingGrounds_10",
+    "key": "MUMMY_CORPSE_01",
+    "x": 308,
+    "y": 3.93
+  },
+  {
+    "name": "Failed_Tramway_1",
+    "objectName": "Dream Dialogue3",
+    "scene": "Deepnest_14",
+    "key": "TRAM_WORKER_03",
+    "x": 43.88,
+    "y": 43.68
+  },
+  {
+    "name": "Failed_Tramway_2",
+    "objectName": "Dream Dialogue2",
+    "scene": "Deepnest_14",
+    "key": "TRAM_WORKER_01",
+    "x": 60.96,
+    "y": 44.02
+  },
+  {
+    "name": "Failed_Tramway_3",
+    "objectName": "Dream Dialogue (1)",
+    "scene": "Deepnest_14",
+    "key": "TRAM_WORKER_02",
+    "x": 67.91,
+    "y": 44.02
+  },
+  {
+    "name": "Fool_Eater",
+    "objectName": "Dream Dialogue",
+    "scene": "Fungus1_22",
+    "key": "FUNG_CORPSE_TRAPPED",
+    "x": 22.23,
+    "y": 108.94
+  },
+  {
+    "name": "Fountain_1",
+    "objectName": "Dream Dialogue 2",
+    "scene": "Abyss_04",
+    "key": "WHITE_CORPSE_02",
+    "x": 58.64,
+    "y": 56.97
+  },
+  {
+    "name": "Fountain_2",
+    "objectName": "Dream Dialogue",
+    "scene": "Abyss_04",
+    "key": "WHITE_CORPSE_01",
+    "x": 70.15,
+    "y": 56.97
+  },
+  {
+    "name": "Fungal_Prison",
+    "objectName": "Dream Dialogue",
+    "scene": "Fungus2_04",
+    "key": "FUNG_CORPSE_PRISON",
+    "x": 22.5,
+    "y": 32.15
+  },
+  {
+    "name": "Garden_Seal",
+    "objectName": "Dream Dialogue (1)",
+    "scene": "Fungus3_48",
+    "key": "GARDEN_CORPSE_01",
+    "x": 6.47,
+    "y": 23.71
+  },
+  {
+    "name": "Great_Hopper",
+    "objectName": "Dream Dialogue",
+    "scene": "Deepnest_East_08",
+    "key": "KING_IDOL_CORPSE_01",
+    "x": 18.45,
+    "y": 4.66
+  },
+  {
+    "name": "Greenpath_Seal",
+    "objectName": "Dream Dialogue",
+    "scene": "Fungus1_10",
+    "key": "FUNG_CORPSE_TRAPPED",
+    "x": 3.32,
+    "y": 5.72
+  },
+  {
+    "name": "Gulkas_1",
+    "objectName": "Dream Dialogue (1)",
+    "scene": "Fungus1_11",
+    "key": "FUNG_GUARD_01",
+    "x": 4.58,
+    "y": 44.14
+  },
+  {
+    "name": "Gulkas_2",
+    "objectName": "Dream Dialogue (2)",
+    "scene": "Fungus1_11",
+    "key": "FUNG_FOG_CORPSES_01",
+    "x": 7.66,
+    "y": 44.08
+  },
+  {
+    "name": "Gulkas_Hidden",
+    "objectName": "Dream Dialogue",
+    "scene": "Fungus1_11",
+    "key": "FUNG_CORPSE_01",
+    "x": 43.39,
+    "y": 31.84
+  },
+  {
+    "name": "Leg_Eater",
+    "objectName": "Dream Dialogue 12344",
+    "scene": "Fungus2_26",
+    "key": "LEG_EATER_CORPSE_01",
+    "x": 18.85,
+    "y": 4.77
+  },
+  {
+    "name": "Leg_Eater_Bench",
+    "objectName": "Dream Dialogue (1)",
+    "scene": "Fungus2_26",
+    "key": "LEG_EATER_CORPSE_02",
+    "x": 38.75,
+    "y": 4.73
+  },
+  {
+    "name": "Leg_Eater_Entrance",
+    "objectName": "Dream Dialogue",
+    "scene": "Fungus2_06",
+    "key": "LEG_EATER_CORPSE_01",
+    "x": 31.02382,
+    "y": 57.66
+  },
+  {
+    "name": "Lighthouse",
+    "objectName": "Dream Dialogue",
+    "scene": "Abyss_Lighthouse_room",
+    "pinScene": "Abyss_09",
+    "key": "LIGHTHOUSE_CORPSE",
+    "x": 93.1,
+    "y": 91.1
+  },
+  {
+    "name": "Love_Key",
+    "objectName": "Dream Dialogue",
+    "scene": "Fungus3_39",
+    "key": "LOVE_KEY_CORPSE",
+    "x": 104.19,
+    "y": 36.57
+  },
+  {
+    "name": "Lower_Edge_1",
+    "objectName": "Dream Dialogue (1)",
+    "scene": "Deepnest_East_03",
+    "key": "COL_CORPSE_ACID_02",
+    "x": 31.86,
+    "y": 80.27
+  },
+  {
+    "name": "Lower_Edge_2",
+    "objectName": "Dream Dialogue (2)",
+    "scene": "Deepnest_East_03",
+    "key": "COL_CORPSE_ACID_03",
+    "x": 37.47,
+    "y": 64.43
+  },
+  {
+    "name": "Lower_Edge_3",
+    "objectName": "Dream Dialogue",
+    "scene": "Deepnest_East_03",
+    "key": "COL_CORPSE_ACID_01",
+    "x": 42.51,
+    "y": 21.57
+  },
+  {
+    "name": "Midwife",
+    "objectName": "Dream Dialogue Corpse",
+    "scene": "Deepnest_41",
+    "key": "MIDWIFE_FOOD_CORPSE",
+    "x": 69.94,
+    "y": 4.88
+  },
+  {
+    "name": "Nosk_1",
+    "objectName": "Dream Dialogue (1) corpse1 (4)",
+    "scene": "Deepnest_31",
+    "key": "MIMIC_CORPSE_12",
+    "x": 82.33,
+    "y": 38.45
+  },
+  {
+    "name": "Nosk_2",
+    "objectName": "Dream Dialogue (1) corpse1 (3)",
+    "scene": "Deepnest_31",
+    "key": "MIMIC_CORPSE_11",
+    "x": 10.03,
+    "y": 38.5
+  },
+  {
+    "name": "Nosk_3",
+    "objectName": "Dream Dialogue (1) corpse1 (2)",
+    "scene": "Deepnest_31",
+    "key": "MIMIC_CORPSE_10",
+    "x": 13.15,
+    "y": 38.92
+  },
+  {
+    "name": "Nosk_4",
+    "objectName": "Dream Dialogue (3) corpse1",
+    "scene": "Deepnest_31",
+    "key": "MIMIC_CORPSE_04",
+    "x": 48.13,
+    "y": 29.7
+  },
+  {
+    "name": "Nosk_5",
+    "objectName": "Dream Dialogue (4) corpse1",
+    "scene": "Deepnest_31",
+    "key": "MIMIC_CORPSE_05",
+    "x": 44.71,
+    "y": 29.63
+  },
+  {
+    "name": "Nosk_6",
+    "objectName": "Dream Dialogue corpse1",
+    "scene": "Deepnest_31",
+    "key": "MIMIC_CORPSE_01",
+    "x": 13.08,
+    "y": 10.68
+  },
+  {
+    "name": "Nosk_7",
+    "objectName": "Dream Dialogue (1) corpse1 (1)",
+    "scene": "Deepnest_31",
+    "key": "MIMIC_CORPSE_09",
+    "x": 46.37,
+    "y": 5.23
+  },
+  {
+    "name": "Nosk_8",
+    "objectName": "Dream Dialogue (2) corpse1",
+    "scene": "Deepnest_31",
+    "key": "MIMIC_CORPSE_03",
+    "x": 37.35,
+    "y": 2.65
+  },
+  {
+    "name": "Nosk_9",
+    "objectName": "Dream Dialogue (1) corpse1",
+    "scene": "Deepnest_31",
+    "key": "MIMIC_CORPSE_02",
+    "x": 26.32,
+    "y": 2.65
+  },
+  {
+    "name": "Nosk_10",
+    "objectName": "Dream Dialogue (5) corpse1",
+    "scene": "Deepnest_31",
+    "key": "MIMIC_CORPSE_06",
+    "x": 81.88,
+    "y": 3.56
+  },
+  {
+    "name": "Nosk_11",
+    "objectName": "Dream Dialogue (6) corpse1",
+    "scene": "Deepnest_31",
+    "key": "MIMIC_CORPSE_07",
+    "x": 90.42,
+    "y": 3.49
+  },
+  {
+    "name": "Nosk_12",
+    "objectName": "Dream Dialogue (7) corpse1",
+    "scene": "Deepnest_31",
+    "key": "MIMIC_CORPSE_08",
+    "x": 93.96,
+    "y": 3.74
+  },
+  {
+    "name": "Palace_Grounds",
+    "objectName": "Dream Dialogue",
+    "scene": "Abyss_05",
+    "key": "MISSING_PALACE_CORPSES",
+    "x": 165.43,
+    "y": 16.956
+  },
+  {
+    "name": "Peak_Idol_1",
+    "objectName": "Dream Dialogue",
+    "scene": "Mines_30",
+    "key": "KING_IDOL_CORPSE_01",
+    "x": 164.17,
+    "y": 16.82154
+  },
+  {
+    "name": "Peak_Idol_2",
+    "objectName": "Dream Dialogue (1)",
+    "scene": "Mines_30",
+    "key": "KING_IDOL_CORPSE_02",
+    "x": 159.09,
+    "y": 16.82154
+  },
+  {
+    "name": "Pilgrim's_Way",
+    "objectName": "Dream Dialogue",
+    "scene": "Fungus2_10",
+    "key": "CITY_GATE_CORPSE_01",
+    "x": 44.67,
+    "y": 4.53
+  },
+  {
+    "name": "Pleasure_House_Egg_1",
+    "objectName": "Dream Dialogue (2)",
+    "scene": "Ruins_Elevator",
+    "key": "APARTMENT_ROYAL_02",
+    "x": 51.63,
+    "y": 96.21
+  },
+  {
+    "name": "Pleasure_House_Egg_2",
+    "objectName": "Dream Dialogue (1)",
+    "scene": "Ruins_Elevator",
+    "key": "APARTMENT_ROYAL_01",
+    "x": 58.05,
+    "y": 96.41
+  },
+  {
+    "name": "Pleasure_House_Elevator",
+    "objectName": "Dream Dialogue (3)",
+    "scene": "Ruins_Elevator",
+    "key": "BATHHOUSE_CORPSE",
+    "x": 21.54263,
+    "y": 96.16057
+  },
+  {
+    "name": "Pleasure_House_Journal",
+    "objectName": "Dream Dialogue",
+    "scene": "Ruins_Elevator",
+    "key": "ELEV_ROYAL_01",
+    "x": 48,
+    "y": 6.26
+  },
+  {
+    "name": "Upper_Edge_1",
+    "objectName": "Dream Dialogue (1)",
+    "scene": "Deepnest_East_07",
+    "key": "COL_CORPSE_ACID_01",
+    "x": 37.10395,
+    "y": 8.334427
+  },
+  {
+    "name": "Upper_Edge_2",
+    "objectName": "Dream Dialogue",
+    "scene": "Deepnest_East_07",
+    "key": "GLAD_OUTSKIRTS_01",
+    "x": 74.11,
+    "y": 163.81
+  },
+  {
+    "name": "Upper_Tram_1",
+    "objectName": "Dream Dialogue (1)",
+    "scene": "Room_Tram_RG",
+    "pinScene": "Crossroads_46",
+    "key": "TRAM_01",
+    "x": 41,
+    "y": 9.71
+  },
+  {
+    "name": "Upper_Tram_2",
+    "objectName": "Dream Dialogue",
+    "scene": "Room_Tram_RG",
+    "pinScene": "Crossroads_46",
+    "key": "TRAM_02",
+    "x": 57,
+    "y": 9.71
+  },
+  {
+    "name": "Watcher's_Spire_1",
+    "objectName": "Dream Dialogue (1)",
+    "scene": "Ruins2_Watcher_Room",
+    "key": "WATCHER_SPIRE_CORPSE_02",
+    "x": 5.81,
+    "y": 3.11
+  },
+  {
+    "name": "Watcher's_Spire_2",
+    "objectName": "Dream Dialogue",
+    "scene": "Ruins2_Watcher_Room",
+    "key": "WATCHER_SPIRE_CORPSE_01",
+    "x": 8.51,
+    "y": 2.74
+  },
+  {
+    "name": "Weavers'_Chest",
+    "objectName": "Dream Dialogue (3)",
+    "scene": "Deepnest_45_v02",
+    "pinScene": "Deepnest_39",
+    "key": "LOOM_SPIDER_04",
+    "x": 204.3,
+    "y": 50.4
+  },
+  {
+    "name": "Weavers'_Den",
+    "objectName": "Dream Dialogue",
+    "scene": "Deepnest_45_v02",
+    "pinScene": "Deepnest_39",
+    "key": "LOOM_SPIDER_01",
+    "x": 213.8,
+    "y": 40.2
+  },
+  {
+    "name": "Weaversong_1",
+    "objectName": "Dream Dialogue (2)",
+    "scene": "Deepnest_45_v02",
+    "pinScene": "Deepnest_39",
+    "key": "LOOM_SPIDER_02",
+    "x": 220.6,
+    "y": 46.6
+  },
+  {
+    "name": "Weaversong_2",
+    "objectName": "Dream Dialogue (1)",
+    "scene": "Deepnest_45_v02",
+    "pinScene": "Deepnest_39",
+    "key": "LOOM_SPIDER_03",
+    "x": 223.1,
+    "y": 46.6
+  },
+  {
+    "name": "Well",
+    "objectName": "Dream Dialogue",
+    "scene": "Crossroads_01",
+    "key": "CROSSROADS_WELL_CORPSE",
+    "x": 39.51,
+    "y": 30.88
+  },
+  {
+    "name": "Willoh",
+    "objectName": "Dream Dialogue (1)",
+    "scene": "Fungus2_34",
+    "key": "GIRAFFE_CORPSE",
+    "x": 36.71,
+    "y": 15.27
+  }
+]
