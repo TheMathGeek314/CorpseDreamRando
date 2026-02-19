@@ -4,11 +4,14 @@ using System.Linq;
 using System.Reflection;
 using ItemChanger;
 using ItemChanger.Tags;
+using MenuChanger;
+using MenuChanger.MenuElements;
+using ItemChanger.UIDefs;
 
 namespace CorpseDreamRando {
     internal static class RandoInterop {
         public static void Hook() {
-            RandoMenuPage.Hook();
+            RandomizerMod.Menu.RandomizerMenuAPI.AddMenuPage(_ => { }, BuildConnectionMenuButton);
             RequestModifier.Hook();
             LogicAdder.Hook();
 
@@ -18,6 +21,22 @@ namespace CorpseDreamRando {
             if(ModHooks.GetMod("RandoSettingsManager") is Mod) {
                 RSMInterop.Hook();
             }
+        }
+
+        private static bool BuildConnectionMenuButton(MenuPage landingPage, out SmallButton settingsButton) {
+            SmallButton button = new(landingPage, "CorpseDreamRando");
+
+            void UpdateButtonColor() {
+                button.Text.color = CorpseDreamRando.Settings.Enabled ? Colors.TRUE_COLOR : Colors.DEFAULT_COLOR;
+            }
+
+            UpdateButtonColor();
+            button.OnClick += () => {
+                CorpseDreamRando.Settings.Enabled = !CorpseDreamRando.Settings.Enabled;
+                UpdateButtonColor();
+            };
+            settingsButton = button;
+            return true;
         }
 
         public static void DefineLocations() {
@@ -38,7 +57,19 @@ namespace CorpseDreamRando {
 
         public static void DefineItems() {
             foreach(CorpseCoords data in CorpseCoords.masterList) {
-                CorpseDreamItem cdItem = new(data.placementName, data.key);
+                CorpseDreamItem cdItem = new() {
+                    name = data.placementName,
+                    loreSheet = "Lore Tablets",
+                    loreKey = data.key,
+                    textType = TextType.LeftLore,
+                    UIDef = new LoreUIDef {
+                        lore = new LanguageString("Lore Tablets", data.key),
+                        textType = TextType.LeftLore,
+                        name = new BoxedString(data.placementName.Replace("-", " - ").Replace("_", " ")),
+                        shopDesc = new BoxedString("This bug's final thoughts, their dying wish, now on sale for an incredible price!\r\n\r\nThis is a metaphor for capitalism."),
+                        sprite = new EmbeddedSprite("corpse_pin")
+                    }
+                };
                 Finder.DefineCustomItem(cdItem);
             }
         }

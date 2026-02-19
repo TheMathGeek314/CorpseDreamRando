@@ -19,7 +19,7 @@ namespace CorpseDreamRando {
                 return;
             foreach(CorpseCoords data in CorpseCoords.masterList) {
                 string name = data.placementName;
-                if(data.name == "Lighthouse" && loreExists)
+                if(loreExists && (data.name == "Lighthouse" || data.name == "Basin_Key"))
                     continue;
                 rb.AddLocationByName(name);
                 rb.EditLocationRequest(name, info => {
@@ -46,12 +46,12 @@ namespace CorpseDreamRando {
             if(!CorpseDreamRando.Settings.Enabled)
                 return;
             foreach(CorpseCoords data in CorpseCoords.masterList) {
-                if(data.name == "Lighthouse" && loreExists)
+                if(loreExists && (data.name == "Lighthouse" || data.name == "Basin_Key"))
                     continue;
                 rb.EditItemRequest(data.placementName, info => {
                     info.getItemDef = () => new ItemDef() {
                         Name = data.placementName,
-                        Pool = "CorpseDream",
+                        Pool = PoolNames.Lore,
                         MajorItem = false,
                         PriceCap = 1
                     };
@@ -61,32 +61,14 @@ namespace CorpseDreamRando {
         }
 
         private static void DefinePools(RequestBuilder rb) {
-            GlobalSettings s = CorpseDreamRando.Settings;
-            if(!s.Enabled)
+            if(!CorpseDreamRando.Settings.Enabled)
                 return;
-
-            if(rb.gs.SplitGroupSettings.RandomizeOnStart) {
-                if(s.Group >= 0 && s.Group <= 2)
-                    s.Group = rb.rng.Next(3);
-            }
-
-            ItemGroupBuilder myGroup = null;
-            if(s.Group > 0) {
-                string label = RBConsts.SplitGroupPrefix + s.Group;
-                foreach(ItemGroupBuilder igb in rb.EnumerateItemGroups()) {
-                    if(igb.label == label) {
-                        myGroup = igb;
-                        break;
-                    }
-                }
-                myGroup ??= rb.MainItemStage.AddItemGroup(label);
-            }
 
             rb.OnGetGroupFor.Subscribe(0.01f, ResolveCorpseDreamGroup);
             bool ResolveCorpseDreamGroup(RequestBuilder rb, string item, RequestBuilder.ElementType type, out GroupBuilder gb) {
                 if(type == RequestBuilder.ElementType.Item || type == RequestBuilder.ElementType.Location) {
                     if(item.StartsWith("Corpse_Dream-")) {
-                        gb = myGroup;
+                        gb = rb.GetGroupFor(LocationNames.Lore_Tablet_Ancient_Basin);
                         return true;
                     }
                 }
