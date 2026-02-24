@@ -125,31 +125,31 @@
   },
   {
     "name": "Corpse_Dream-Midwife",
-    "logic": "*Dirtmouth_Stag"
+    "logic": "Deepnest_41[left2] + (LANTERN | NOLANTERN?FALSE | DARKROOMS) + Wall-Midwife?TRUE + DREAMNAIL"
   },
   {
     "name": "Corpse_Dream-Nosk_1",
-    "logic": "*Dirtmouth_Stag"
+    "logic": "(Deepnest_31[right1] + (ANYCLAW | WINGS | LEFTDASH | (FIREBALLSKIPS + (RIGHTFIREBALL | SCREAM)) + $CASTSPELL[3]) + Wall-Nosk_Outer?TRUE | Deepnest_31[right1] + Plank-Nosk_Exit?FALSE + Wall-Nosk_Inner?TRUE + (ANYCLAW | WINGS) | Deepnest_31[right2] + (ANYCLAW | WINGS) + Wall-Nosk_Inner?TRUE) + DREAMNAIL"
   },
   {
     "name": "Corpse_Dream-Nosk_2",
-    "logic": "*Dirtmouth_Stag"
+    "logic": "*Corpse_Dream-Nosk_1"
   },
   {
     "name": "Corpse_Dream-Nosk_3",
-    "logic": "*Corpse_Dream-Nosk_2"
+    "logic": "*Corpse_Dream-Nosk_1"
   },
   {
     "name": "Corpse_Dream-Nosk_4",
-    "logic": "*Dirtmouth_Stag"
+    "logic": "*Corpse_Dream-Nosk_1"
   },
   {
     "name": "Corpse_Dream-Nosk_5",
-    "logic": "*Corpse_Dream-Nosk_4"
+    "logic": "*Corpse_Dream-Nosk_1"
   },
   {
     "name": "Corpse_Dream-Nosk_6",
-    "logic": "*Dirtmouth_Stag"
+    "logic": "(Deepnest_31[right2] | Deepnest_31[right1] + (Wall-Nosk_Outer?TRUE + Wall-Nosk_Inner?TRUE + (ANYCLAW | $SHRIEKPOGO[3,before:AREASOUL]) | Plank-Nosk_Exit?FALSE + (ANYCLAW | WINGS)) + DREAMNAIL"
   },
   {
     "name": "Corpse_Dream-Nosk_7",
