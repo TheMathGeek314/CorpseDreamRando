@@ -149,7 +149,7 @@
   },
   {
     "name": "Corpse_Dream-Nosk_6",
-    "logic": "(Deepnest_31[right2] | Deepnest_31[right1] + (Wall-Nosk_Outer?TRUE + Wall-Nosk_Inner?TRUE + (ANYCLAW | $SHRIEKPOGO[3,before:AREASOUL]) | Plank-Nosk_Exit?FALSE + (ANYCLAW | WINGS)) + DREAMNAIL"
+    "logic": "(Deepnest_31[right2] | Deepnest_31[right1] + (Wall-Nosk_Outer?TRUE + Wall-Nosk_Inner?TRUE + (ANYCLAW | $SHRIEKPOGO[3,before:AREASOUL]) | Plank-Nosk_Exit?FALSE + (ANYCLAW | WINGS))) + DREAMNAIL"
   },
   {
     "name": "Corpse_Dream-Nosk_7",
