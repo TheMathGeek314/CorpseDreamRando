@@ -125,7 +125,7 @@
   },
   {
     "name": "Corpse_Dream-Midwife",
-    "logic": "Deepnest_41[left2] + (LANTERN | NOLANTERN?FALSE | DARKROOMS) + Wall-Midwife?TRUE + DREAMNAIL"
+    "logic": "(LANTERN | NOLANTERN?FALSE | DARKROOMS) + (Deepnest_41[left2] | Deepnest_41 + Plank-Village_Lower?FALSE) + Wall-Midwife?TRUE + DREAMNAIL"
   },
   {
     "name": "Corpse_Dream-Nosk_1",
