@@ -41,15 +41,15 @@
   },
   {
     "name": "Corpse_Dream-Failed_Tramway_1",
-    "logic": "*Bench-Failed_Tramway + DREAMNAIL"
+    "logic": "(Deepnest_14[left1] | Deepnest_14 + (WINGS | (RIGHTCLAW | RIGHTDASH | LEFTCLAW + RIGHTSUPERDASH) + (LEFTCLAW | LEFTDASH | RIGHTCLAW + LEFTSUPERDASH))) + DREAMNAIL"
   },
   {
     "name": "Corpse_Dream-Failed_Tramway_2",
-    "logic": "*Bench-Failed_Tramway + DREAMNAIL"
+    "logic": "*Corpse_Dream-Failed_Tramway_1"
   },
   {
     "name": "Corpse_Dream-Failed_Tramway_3",
-    "logic": "*Bench-Failed_Tramway + DREAMNAIL"
+    "logic": "*Corpse_Dream-Failed_Tramway_1"
   },
   {
     "name": "Corpse_Dream-Fool_Eater",
@@ -177,7 +177,7 @@
   },
   {
     "name": "Corpse_Dream-Palace_Grounds",
-    "logic": "Abyss_05[left1] + DREAMNAIL"
+    "logic": "Abyss_05 + DREAMNAIL"
   },
   {
     "name": "Corpse_Dream-Peak_Idol_1",
