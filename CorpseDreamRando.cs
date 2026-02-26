@@ -28,5 +28,3 @@ namespace CorpseDreamRando {
         }
     }
 }
-
-//finish logic (including MoreStags interop either here or there)
