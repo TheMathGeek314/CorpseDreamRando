@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using HutongGames.PlayMaker;
 using HutongGames.PlayMaker.Actions;
@@ -37,6 +38,13 @@ namespace CorpseDreamRando {
             orig(self);
             (string, string) sceneObject = (self.gameObject.scene.name, recursiveParentSearch(self.gameObject.name, self.gameObject));
             if(CorpseCoords.nameToPlacement.TryGetValue(sceneObject, out string placementName)) {
+                (string, string)[] loreDupes = [("Lighthouse", "Lighthouse_Keeper_Dream"), ("Basin_Key", "Key_Thief_Dream")];
+                foreach((string corpse, string lore) loreDupe in loreDupes) {
+                    if(placementName == "Corpse_Dream-" + loreDupe.corpse && RandomizerMod.RandomizerMod.RS.Context.itemPlacements.Any(placement => placement.Location.Name == loreDupe.lore)) {
+                        return;
+                    }
+                }
+                
                 FsmState impactState = self.GetState("Impact");
                 impactState.RemoveTransitionsOn("FINISHED");
                 impactState.AddTransition("FINISHED", "Convo");
