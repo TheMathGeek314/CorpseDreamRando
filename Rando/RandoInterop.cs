@@ -4,9 +4,9 @@ using System.Linq;
 using System.Reflection;
 using ItemChanger;
 using ItemChanger.Tags;
+using ItemChanger.UIDefs;
 using MenuChanger;
 using MenuChanger.MenuElements;
-using ItemChanger.UIDefs;
 using RandomizerMod.Logging;
 using RandomizerMod.RandomizerData;
 
