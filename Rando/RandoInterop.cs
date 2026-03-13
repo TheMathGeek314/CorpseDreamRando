@@ -7,6 +7,8 @@ using ItemChanger.Tags;
 using MenuChanger;
 using MenuChanger.MenuElements;
 using ItemChanger.UIDefs;
+using RandomizerMod.Logging;
+using RandomizerMod.RandomizerData;
 
 namespace CorpseDreamRando {
     internal static class RandoInterop {
@@ -14,6 +16,8 @@ namespace CorpseDreamRando {
             RandomizerMod.Menu.RandomizerMenuAPI.AddMenuPage(_ => { }, BuildConnectionMenuButton);
             RequestModifier.Hook();
             LogicAdder.Hook();
+
+            SettingsLog.AfterLogSettings += LogRandoSettings;
 
             DefineLocations();
             DefineItems();
@@ -37,6 +41,11 @@ namespace CorpseDreamRando {
             };
             settingsButton = button;
             return true;
+        }
+
+        private static void LogRandoSettings(LogArguments args, TextWriter w) {
+            w.WriteLine("Logging CorpseDreamRando settings:");
+            w.WriteLine(JsonUtil.Serialize(CorpseDreamRando.Settings));
         }
 
         public static void DefineLocations() {
