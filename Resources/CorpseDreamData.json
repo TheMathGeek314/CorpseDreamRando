@@ -83,6 +83,14 @@
     "y": 3.93
   },
   {
+    "name": "Cliffs_Idol",
+    "objectName": "Dream Dialogue",
+    "scene": "Cliffs_01",
+    "key": "HIGHER_BEING_CORPSE",
+    "x": 36.28,
+    "y": 4.34
+  },
+  {
     "name": "Failed_Tramway_1",
     "objectName": "Dream Dialogue3",
     "scene": "Deepnest_14",
@@ -250,6 +258,14 @@
     "key": "COL_CORPSE_ACID_01",
     "x": 42.51,
     "y": 21.57
+  },
+  {
+    "name": "Mato",
+    "objectName": "Dream Dialogue",
+    "scene": "Cliffs_02",
+    "key": "CLIFFS_NAIL_CORPSE",
+    "x": 90.64,
+    "y": 46.02
   },
   {
     "name": "Midwife",

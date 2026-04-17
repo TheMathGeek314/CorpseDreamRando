@@ -40,6 +40,10 @@
     "logic": "*Wanderer's_Journal-Resting_Grounds_Catacombs + DREAMNAIL"
   },
   {
+    "name": "Corpse_Dream-Cliffs_Idol",
+    "logic": "Cliffs_01 + DREAMNAIL"
+  },
+  {
     "name": "Corpse_Dream-Failed_Tramway_1",
     "logic": "(Deepnest_14[left1] | Deepnest_14 + (WINGS | (RIGHTCLAW | RIGHTDASH | LEFTCLAW + RIGHTSUPERDASH) + (LEFTCLAW | LEFTDASH | RIGHTCLAW + LEFTSUPERDASH))) + DREAMNAIL"
   },
@@ -122,6 +126,10 @@
   {
     "name": "Corpse_Dream-Lower_Edge_3",
     "logic": "*Corpse_Dream-Lower_Edge_1"
+  },
+  {
+    "name": "Corpse_Dream-Mato",
+    "logic": "*Cliffs_02[door1] + DREAMNAIL"
   },
   {
     "name": "Corpse_Dream-Midwife",
