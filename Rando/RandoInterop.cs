@@ -22,9 +22,11 @@ namespace CorpseDreamRando {
             DefineLocations();
             DefineItems();
 
-            if(ModHooks.GetMod("RandoSettingsManager") is Mod) {
+            if(ModHooks.GetMod("RandoSettingsManager") is Mod)
                 RSMInterop.Hook();
-            }
+
+            if(ModHooks.GetMod("ConnectionSettingsRando") is Mod)
+                CSRInterop.Hook();
         }
 
         private static bool BuildConnectionMenuButton(MenuPage landingPage, out SmallButton settingsButton) {
